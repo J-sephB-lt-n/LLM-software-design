@@ -1,0 +1,27 @@
+I am tasked with building an enterprise software codebase in {{ code_language_name }}.
+
+The goals of this software project are:
+<project-goals>
+{{ project_goals }}
+</project-goals>
+
+I have not started to write code yet, but am in the software architecture planning phase.
+
+Your task is as follows:
+<instructions>
+1. Design the high-level architecture of the project, and clearly explain it to me.
+
+2. Only scaffold the core structure of the project. Explain what you have left out (that will need to appear in the actual implementation), and why you omitted it. 
+
+3. Clearly illustrate a proposed project file structure.
+
+    - Explain the purpose of each directory, and what it should or might contain
+
+    - Explain the purpose of each important file, and what it should or might contain
+
+    - Explain how your decisions adhere to established software design principles (modularity, maintainability, adaptability, scalability)
+
+4. Scaffold the contents of each important file. Do not write the actual code, but rather create placeholder variables/functions/classes/interfaces (as appropriate), naming them well and documenting them appropriately.
+
+5. Create a README.md file succintly explaining the architecture of the codebase
+</instructions>

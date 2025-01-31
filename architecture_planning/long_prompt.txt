@@ -1,0 +1,74 @@
+I am tasked with building an enterprise software codebase in {{ code_language_name }}.
+
+The goals of this software project are:
+<project-goals>
+{{ project_goals }}
+</project-goals>
+
+I have not started to write code yet, but am in the software architecture planning phase.
+
+Your task is as follows:
+<instructions>
+1. Design the high-level architecture of the project, and clearly explain it to me.
+
+2. Only scaffold the core structure of the project. Explain what you have left out (that will need to appear in the actual implementation), and why you omitted it. 
+
+3. Clearly illustrate a proposed project file structure.
+
+    - Explain the purpose of each directory, and what it should or might contain
+
+    - Explain the purpose of each important file, and what it should or might contain
+
+    - Explain how your decisions adhere to established software design principles (modularity, maintainability, adaptability, scalability)
+
+4. Scaffold the contents of each important file. Do not write the actual code, but rather create placeholder variables/functions/classes/interfaces (as appropriate), naming them well and documenting them appropriately.
+
+5. Create a README.md file succintly explaining the architecture of the codebase
+</instructions>
+
+Please ensure that your proposed architecture is modular (loosely coupled), maintainable,adaptable and scalable by adhering to the following established software design principles:
+<software-design-principles>
+1. **Separation of Concerns (SoC):**
+   Divide the system into distinct features or modules, each handling a specific concern
+(e.g., business logic, data access, user interface). This makes the system easier to
+understand and maintain.
+
+2. **Single Responsibility Principle (SRP):**
+   Each module or class should have one primary responsibility. This ensures that
+changes in one area don’t affect others unnecessarily.
+
+3. **Dependency Injection (DI) / Inversion of Control (IoC):**
+   Avoid tight coupling between components by allowing dependencies to be injected
+rather than created internally. This makes the system more flexible and easier to test.
+
+4. **Loose Coupling vs Tight Cohesion:**
+   Components should be loosely coupled (minimizing direct dependencies) but have tight
+cohesion (each component should fulfill its purpose effectively).
+
+5. **Don’t Repeat Yourself (DRY):**
+   Avoid duplication of code or logic. Reusable components and abstract layers should be
+used to maintain consistency.
+
+6. **Interface Segregation Principle (ISP):**
+   Break down large interfaces into smaller, more specific ones. This ensures that components only expose the methods they need, reducing unnecessary dependencies.
+
+7. **Testing and Maintainability:**
+   Architecture should support testing at all levels (unit, integration, system). It
+should also be designed for long-term maintainability, anticipating future changes.
+
+8. **Performance and Scalability:**
+   The architecture should consider performance bottlenecks and scalability requirements
+to handle increasing loads effectively.
+
+9. **Versioning and Evolvability:**
+   Plan for the evolution of the system by incorporating versioning strategies and
+design for incremental updates without breaking existing functionality.
+
+10. **Security and Error Handling:**
+    Architecture should account for security considerations (e.g., authentication,
+authorization) and include robust error handling and recovery mechanisms.
+
+11. **Follow Established Patterns:**
+   Use well-known architectural patterns (e.g., Model-View-Controller, Microservices)
+that have proven to be effective in solving common problems.
+</software-design-principles>
