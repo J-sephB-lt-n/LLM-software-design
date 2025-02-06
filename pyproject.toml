@@ -8,9 +8,10 @@ dependencies = [
     "openai>=1.61.0",
 ]
 
+[tool.uv.workspace]
+members = ["personal_projects/LLM-software-design"]
+
 [dependency-groups]
 dev = [
-    "ipython>=8.31.0",
-    "mypy>=1.14.1",
-    "pylint>=3.3.4",
+    "ipython>=8.32.0",
 ]

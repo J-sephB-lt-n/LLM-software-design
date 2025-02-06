@@ -7,3 +7,8 @@ uv run python -m architecture_planning.main \
   --code_language_name 'python' \
   --project_goals 'describe project goals here'
 ```
+
+Project code review:
+```bash
+uv run python -m code_review.main
+```

@@ -1,0 +1,9 @@
+Please review the following code in terms of it's **{{ software_best_practice_name }}**:
+
+Specifically, {{ software_best_practice_name }} means {{ software_best_practice_definition }}
+
+Please provide specific recommendations for increasing the quality of the code in terms of {{ software_best_practice_name }} (including code snippets or scaffolded code if relevant).
+
+Please review all code below:
+
+{{ code_to_review }}
