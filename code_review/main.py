@@ -18,7 +18,7 @@ if __name__ == "__main__":
         type=str,
         help="Comma-separated list indicating which software best practices should be assessed\
  e.g. --best_practices='1,2,5'\
- Run this function with no arguments to see a list of available options."
+ Run main.py with no arguments to see a list of available options."
     )
     arg_parser.add_argument(
         "-s",
